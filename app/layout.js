@@ -2,6 +2,7 @@
 import { Inter } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
+import Navbar from "./components/Navbar";
 // import '@/public/css/bootstrap.rtl.min.css'
 // import '@/public/css/aos.css'
 // import '@/public/css/animate.min.css'
@@ -37,10 +38,41 @@ export default function RootLayout({ children }) {
         <link rel="stylesheet" href="/css/rtl.css" />
       </head>
       <body className={inter.className}>
+        {/* <div className="preloader">
+            <div className="d-table">
+                <div className="d-table-cell">
+                    <div className="lds-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+                </div>
+            </div>
+        </div> */}
+        {/* <Navbar/> */}
         {children}
-
-     
-
+        <div className="go-top">
+        <i className="ri-arrow-up-s-line" />
+      </div>
+        <Script data-cfasync="false" src="js/email-decode.min.js"></Script>
+	      <Script src="js/jquery.min.js"></Script>
+        <Script src="js/bootstrap.bundle.min.js"></Script>
+        <Script src="js/jquery.meanmenu.js"></Script> 
+        <Script src="js/owl.carousel.min.js"></Script>
+        <Script src="js/jquery.appear.js"></Script>
+        <Script src="js/odometer.min.js"></Script>
+        <Script src="js/jquery.magnific-popup.min.js"></Script>
+        <Script src="js/fancybox.min.js"></Script>
+        <Script src="js/tweenmax.min.js"></Script>
+        <Script src="js/ScrollMagic.min.js"></Script>
+        <Script src="js/animation.gsap.min.js"></Script>
+        <Script src="js/debug.addIndicators.min.js"></Script>
+        <Script src="js/mixitup.min.js"></Script>
+        <Script src="js/nice-select.min.js"></Script>
+        <Script src="js/tilt.jquery.min.js"></Script>
+        <Script src="js/parallax.min.js"></Script>
+	      <Script src="js/jquery.ajaxchimp.min.js"></Script>
+	      <Script src="js/form-validator.min.js"></Script>
+        <Script src="js/contact-form-script.js"></Script>
+        <Script src="js/aos.js"></Script>
+        <Script src="js/wow.min.js"></Script>
+        <Script src="js/main.js"></Script>
       </body>
     </html>
   );

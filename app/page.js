@@ -72,35 +72,11 @@ export default function Home() {
       <Footer/>
       {/* End Footer Area */}
       {/* Start Go Top Area */}
-      <div className="go-top">
-        <i className="ri-arrow-up-s-line" />
-      </div>
+
       {/* End Go Top Area */}
 
       {/* <!-- Links of JS files --> */}
-        <Script data-cfasync="false" src="js/email-decode.min.js"></Script>
-	      <Script src="js/jquery.min.js"></Script>
-        <Script src="js/bootstrap.bundle.min.js"></Script>
-        <Script src="js/jquery.meanmenu.js"></Script> 
-        <Script src="js/owl.carousel.min.js"></Script>
-        <Script src="js/jquery.appear.js"></Script>
-        <Script src="js/odometer.min.js"></Script>
-        <Script src="js/jquery.magnific-popup.min.js"></Script>
-        <Script src="js/fancybox.min.js"></Script>
-        <Script src="js/tweenmax.min.js"></Script>
-        <Script src="js/ScrollMagic.min.js"></Script>
-        <Script src="js/animation.gsap.min.js"></Script>
-        <Script src="js/debug.addIndicators.min.js"></Script>
-        <Script src="js/mixitup.min.js"></Script>
-        <Script src="js/nice-select.min.js"></Script>
-        <Script src="js/tilt.jquery.min.js"></Script>
-        <Script src="js/parallax.min.js"></Script>
-	      <Script src="js/jquery.ajaxchimp.min.js"></Script>
-	      <Script src="js/form-validator.min.js"></Script>
-        <Script src="js/contact-form-script.js"></Script>
-        <Script src="js/aos.js"></Script>
-        <Script src="js/wow.min.js"></Script>
-        <Script src="js/main.js"></Script>
+
     </>
   );
 }

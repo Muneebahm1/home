@@ -10,7 +10,7 @@ const About = () => {
       <div className="container">
         <div className="row align-items-center">
           <div className="col-lg-6 col-md-12">
-            <div className="about-wrap-image" dataTilt="">
+            <div className="about-wrap-image" datatilt="">
               <ExportedImage src={aboutImg} alt="About Image" data-aos="fade-down" data-aos-delay="80" data-aos-duration="800" data-aos-once="true" />
             </div>
           </div>

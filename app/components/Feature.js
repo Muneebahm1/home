@@ -12,8 +12,8 @@ const Feature = () => {
         <div className="features-inner-box">
           <div className="row justify-content-center">
             <div className="col-lg-4 col-md-6" data-aos="fade-down" data-aos-delay="100" data-aos-duration="1000" data-aos-once="true">
-              <div className="single-features-card" dataTilt="">
-                <div className="features-image" dataTilt="">
+              <div className="single-features-card" datatilt="">
+                <div className="features-image" datatilt="">
                   <Link href="#">
                     <ExportedImage
                       src={featuresImg1}
@@ -40,8 +40,8 @@ const Feature = () => {
             </div>
 
             <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" data-aos-once="true">
-              <div className="single-features-card" dataTilt="">
-                <div className="features-image" dataTilt="">
+              <div className="single-features-card" datatilt="">
+                <div className="features-image" datatilt="">
                   <Link href="#">
                     <ExportedImage
                       src={featuresImg2}
@@ -68,8 +68,8 @@ const Feature = () => {
             </div>
 
             <div className="col-lg-4 col-md-6" data-aos="fade-down" data-aos-delay="100" data-aos-duration="1000" data-aos-once="true">
-              <div className="single-features-card" dataTilt="">
-                <div className="features-image" dataTilt="">
+              <div className="single-features-card" datatilt="">
+                <div className="features-image" datatilt="">
                   <Link href="#">
                     <ExportedImage
                       src={featuresImg3}

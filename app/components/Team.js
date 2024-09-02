@@ -18,7 +18,7 @@ const Team = () => {
           <div className="row justify-content-center">
             <div className="col-lg-3 col-sm-6">
               <div className="single-team-card">
-                <div className="team-image" dataTilt="">
+                <div className="team-image" datatilt="">
                   <img src="images/team-1.png" alt="image" />
                   <ul className="team-social">
                     <li>
@@ -49,7 +49,7 @@ const Team = () => {
             </div>
             <div className="col-lg-3 col-sm-6">
               <div className="single-team-card">
-                <div className="team-image" dataTilt="">
+                <div className="team-image" datatilt="">
                   <img src="images/team-2.png" alt="image" />
                   <ul className="team-social">
                     <li>
@@ -80,7 +80,7 @@ const Team = () => {
             </div>
             <div className="col-lg-3 col-sm-6">
               <div className="single-team-card">
-                <div className="team-image" dataTilt="">
+                <div className="team-image" datatilt="">
                   <img src="images/team-3.png" alt="image" />
                   <ul className="team-social">
                     <li>
@@ -111,7 +111,7 @@ const Team = () => {
             </div>
             <div className="col-lg-3 col-sm-6">
               <div className="single-team-card">
-                <div className="team-image" dataTilt="">
+                <div className="team-image" datatilt="">
                   <img src="images/team-4.png" alt="image" />
                   <ul className="team-social">
                     <li>

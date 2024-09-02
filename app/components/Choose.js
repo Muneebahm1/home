@@ -14,7 +14,7 @@ const Choose = () => {
         <div className="row justify-content-center">
             <div className="col-lg-3 col-sm-6">
                 <div className="single-choose-card" data-aos="fade-up" data-aos-delay="50" data-aos-duration="500" data-aos-once="true">
-                    <div className="choose-image" dataTilt="">
+                    <div className="choose-image" datatilt="">
                         <a href="services-details.html"><img src="images/choose-1.png" alt="image"/></a>
 
                         <div className="number">1</div>
@@ -30,7 +30,7 @@ const Choose = () => {
 
             <div className="col-lg-3 col-sm-6">
                 <div className="single-choose-card" data-aos="fade-up" data-aos-delay="60" data-aos-duration="600" data-aos-once="true">
-                    <div className="choose-image" dataTilt="">
+                    <div className="choose-image" datatilt="">
                         <a href="services-details.html"><img src="images/choose-2.png" alt="image"/></a>
 
                         <div className="number">2</div>
@@ -46,7 +46,7 @@ const Choose = () => {
 
             <div className="col-lg-3 col-sm-6">
                 <div className="single-choose-card" data-aos="fade-up" data-aos-delay="70" data-aos-duration="700" data-aos-once="true">
-                    <div className="choose-image" dataTilt="">
+                    <div className="choose-image" datatilt="">
                         <a href="services-details.html"><img src="images/choose-3.png" alt="image"/></a>
 
                         <div className="number">3</div>
@@ -62,7 +62,7 @@ const Choose = () => {
 
             <div className="col-lg-3 col-sm-6">
                 <div className="single-choose-card" data-aos="fade-up" data-aos-delay="80" data-aos-duration="800" data-aos-once="true">
-                    <div className="choose-image" dataTilt="">
+                    <div className="choose-image" datatilt="">
                         <a href="services-details.html"><img src="images/choose-4.png" alt="image"/></a>
 
                         <div className="number">4</div>

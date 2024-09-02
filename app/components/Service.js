@@ -1,7 +1,7 @@
 import React from 'react'
 import ExportedImage from 'next-image-export-optimizer'
 import Link from 'next/link'
-
+import service4 from '@/public/images/services-4.jpg'
 const Choose = () => {
   return (
     <div className="services-area margin-zero ptb-100">
@@ -120,13 +120,13 @@ const Choose = () => {
 
               <div className="services-item">
                 <div className="services-image">
-                  <Link href="/services-details" legacyBehavior>
+                  <Link href="#" legacyBehavior>
                     <a>
                       <ExportedImage
-                        src="/images/services-4.jpg"
+                        src={service4}
                         alt="Analytic Solutions"
                         width={500}
-                        height={300}
+                        height={335}
                       />
                     </a>
                   </Link>

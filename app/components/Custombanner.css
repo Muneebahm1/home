@@ -1,0 +1,92 @@
+.custom-banner {
+    background: linear-gradient(135deg, #000000, #434343, #616161); /* Darker gradient */
+    padding: 60px 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Slightly darker shadow */
+}
+
+.custom-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    width: 90%;
+}
+
+.custom-banner-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: row; /* Ensures the image and text are side by side */
+}
+
+.banner-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    margin-right: 30px; /* Space between image and text */
+}
+
+.banner-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Rounded corners for image */
+}
+
+.banner-text {
+    flex: 1; /* Allows text to take up the remaining space */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align text to the left */
+    justify-content: center;
+    padding: 0 10px;
+}
+
+.banner-text h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    font-family: 'Arial', sans-serif;
+}
+
+.banner-text h2 {
+    font-size: 24px;
+    font-family: 'Arial', sans-serif;
+    color: white; /* Ensure text color is white */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .custom-banner {
+        padding: 30px 0; /* Reduce padding on smaller screens */
+    }
+
+    .custom-container {
+        flex-direction: column; /* Stack image and text vertically */
+        align-items: center; /* Center align content */
+    }
+
+    .banner-image {
+        margin-right: 0; /* Remove margin on smaller screens */
+        margin-bottom: 20px; /* Add space below the image */
+        width: 80%; /* Adjust image width */
+    }
+
+    .banner-text {
+        width: 80%; /* Adjust text width */
+        text-align: center; /* Center text alignment */
+    }
+
+    .banner-text h1 {
+        font-size: 28px; /* Adjust font size for smaller screens */
+    }
+
+    .banner-text h2 {
+        font-size: 20px; /* Adjust font size for smaller screens */
+    }
+}

@@ -6,7 +6,7 @@ const Talk = () => {
     <div className="container">
       <div className="row align-items-center">
         <div className="col-lg-6 col-md-12">
-          <div className="talk-image" dataTilt="">
+          <div className="talk-image" datatilt="">
             <img src="images/talk.png" alt="image" />
             <div className="talk-circle">
               <img src="images/talk-circle.png" alt="image" />
