@@ -181,7 +181,7 @@ const page = () => {
                 <div className="section-title section-style-two">
                     <div className="section-bg-text">FEEDBACK</div>
                     <span>TESTIMONIALS</span>
-                    <h2>Our Client's Feedback <span className="overlay"></span></h2>
+                    <h2>Our Client&#39;s Feedback <span className="overlay"></span></h2>
                 </div>
                 
                 <div className="testimonials-slides owl-carousel owl-theme">
@@ -500,8 +500,8 @@ const page = () => {
 
                     <div className="col-lg-6 col-md-12">
                         <div className="talk-content">
-                            <div className="talk-bg-text">LET'S TALK</div>
-                            <span>LET'S TALK</span>
+                            <div className="talk-bg-text">LET&#39;S TALK</div>
+                            <span>LET&#39;S TALK</span>
                             <h3>We Would Like To Hear From You Any Question <span className="overlay"></span></h3>
                             <p>Lorem ipsum dolor sit amet consetetur sadipscing elitre sed diam non umy eirmod tempor invidunt ut labore.</p>
 

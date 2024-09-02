@@ -373,7 +373,7 @@ const page = () => {
 
                     <div className="col-lg-6 col-md-12">
                         <div className="talk-content margin-zero">
-                            <span>LET'S TALK</span>
+                            <span>LET&#39;S TALK</span>
                             <h3>We Would Like To Hear From You Any Question <span className="overlay"></span></h3>
                             <p>Lorem ipsum dolor sit amet consetetur sadipscing elitre sed diam non umy eirmod tempor invidunt ut labore.</p>
 
